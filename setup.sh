@@ -46,9 +46,9 @@ function main() {
     changeSSHConfig
     setupUfw
 
-    if ! hasSwap; then
-        setupSwap
-    fi
+    # if ! hasSwap; then
+    #     setupSwap
+    # fi
 
     setupTimezone
 
